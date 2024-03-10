@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+/* styles.css */
+.background {
+  /* Set the background image */
+  background-image: url('image.png'); /* Replace 'path_to_your_image.jpg' with the path to your image */
+  
+  /* Adjust background properties */
+  background-size: cover; /* or 'contain' depending on how you want the image to fit */
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Other styles like height, width, etc. */
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.users-button{
+  font-size: 18px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
